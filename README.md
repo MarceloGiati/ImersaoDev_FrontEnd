@@ -10,4 +10,5 @@ Criado toda as devidas classe, estrutudaro toda a parte de CSS para ajustar a pa
 e feito o responsivo prada página se auto ajustar ao abrir em dispositivos mobile.
 
 ## 3° Dia 
-Criado toda a parte do JavaScript, e feito a refatoração para Clean Code.
+Criado toda a parte do JavaScript, e feito a refatoração para Clean Code.<br>
+Criado Git-Page para visualização da pagina com os cards.
