@@ -1,4 +1,4 @@
-@media(max-width: 620px) {
+@media(max-width:700px) {
     .pokemom-slider {
         padding: 0 15px;
         gap: 10px;
@@ -7,19 +7,20 @@
     .btn-seta {
         width: 20px;
         height: 20px;
-        padding: 20px;
+        padding: 25px;
+        display: flex;
         justify-content: center;
         align-items: center;
         
     }
 
     .lista-pokemons {
-        height: 480px;
+        height: 450px;
 
     }
 
     .cartao .imagem-pokemon {
-        max-height: 230px;
+        max-height: 200px;
 
     }
 
