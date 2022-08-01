@@ -11,4 +11,5 @@ e feito o responsivo prada página se auto ajustar ao abrir em dispositivos mobi
 
 ## 3° Dia 
 Criado toda a parte do JavaScript, e feito a refatoração para Clean Code.<br>
-Criado Git-Page para visualização da pagina com os cards.
+Criado Git-Page para visualização da pagina com os cards.<br>
+Git-Page: https://marcelogiati.github.io/ImersaoDev_FrontEnd/
