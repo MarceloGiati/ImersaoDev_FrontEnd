@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Projeto Pokémon Slider - MapaDev</title>
+
+        <link rel="shortcut icon" href="src/imagens/pokebola.png" type="image/x-icon">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="./src/css/reset.css">
+        <link rel="stylesheet" href="./src/css/Style.css">
+
+        <link rel="stylesheet" href="./src/css/responsivo.css">
+
+    </head>
+    <body>
+        <header class="cabecalho">
+            <img src="src/imagens/pokebola.png" alt="pokebola" class="pokebola" srcset="" >
+            <h1 class="titulo">PokeCrads</h1>
+
+        </header>
+
+        <main class="pokemom-slider">
+            <button class="btn-seta btn-voltar" id="btn-voltar">
+                <img src="src/imagens/seta.png" alt="seta voltar">
+            </button>
+
+            <ul class="lista-pokemons">
+                <!--Pikachu-->
+                <li class="cartao selecionado fundo-1"> 
+                    <div class="informacoes">
+                        <h2 class="nome">Pikachu</h2>
+                        <p class="vida">HP 300</p>
+                    </div>
+
+                    <div class="container-imagem">
+                        <img src="src/imagens/pikachu.png" alt="Pikachu" class="imagem-pokemon">
+                    </div>
+
+                    <div class="descricao">
+                        <h3 class="titulo">Descrição</h3>
+                        <p class=" texto">Pikachu é um tipo de Pokémon elétrico: os bolsos em suas bochechas, identificado por discos vermelhos que decoram, são capazes de gerar choques elétricos de intensidade variável, chegando até o nível de poder de um raio. Eles também o usam para se defender.</p>
+                    </div>
+
+                </li>
+
+                <!-- Charizard -->
+                <li class="cartao fundo-2">  
+                    <div class="informacoes">
+                        <h2 class="nome">Charizard</h2>
+                        <p class="vida">HP 800</p>
+                    </div>
+
+                    <div class="container-imagem">
+                        <img src="src/imagens/charizard.png" alt="charizard">
+                    </div>
+
+                    <div class="descricao">
+                        <h3 class="titulo">Descrição</h3>
+                        <p class="texto">Charizard é um Pokémon do tipo Fogo e Voador introduzido na Geração I. Charizard é conhecido por ter uma rola enorme e por estrupar as suas treinadoras femeas, quando charizard entra em campo ele começa a se masturbar ate que seu HP desça a zero e ele morra, charizard tambem faz parte do partido nazistacomunista criado por george pig. É a evolução de Charmeleon.                        
+                        </p>
+                    </div>
+
+                </li>
+
+                <!--Meutwo-->
+                <li class="cartao fundo-4">
+                    <div class="informacoes">
+                        <h2 class="nome">Mewtwo</h2>
+                        <p class="vida">HP 1200</p>
+                    </div>
+
+                    <div class="container-imagem">
+                        <img src="src/imagens/mewtwo.png" alt="mewtwo">
+                    </div>
+
+                    <div class="descricao">
+                        <h3 class="titulo">Descrição</h3>
+                        <p class="texto"> Mewtwo é uma criatura com uma postura humanóide, mas tem algumas características felinas. O corpo de Mewtwo é cinzento-roxo e uma cauda longa totalmente da cor roxa. Mewtwo tem três dígitos circulares em cada apêndice.</p>
+                    </div>
+
+                </li>
+    
+                <!--Solgaleo-->
+                <li class="cartao fundo-8">
+                    <div class="informacoes">
+                        <h2 class="nome">Solgaleo</h2>
+                        <p class="vida">HP 1500</p>
+                    </div>
+
+                    <div class="container-imagem">
+                        <img src="src/imagens/Solgaleo.png" alt="Slogaleo">
+                    </div>
+
+                    <div class="descricao">
+                        <h3 class="titulo">Descrição</h3>
+                        <p class="texto"> Solgaleo é um Pokémon grande e brancosemelhante a um leão branco. Tem um focinho rombudo com nariz azul-acinzentado e olhos azuis pálidos. A metade superior de sua face é uma área azul profunda que mostra uma paisagem estelar em constante mudança. Quatro pontas amarelas emolduram a cabeça de Solgaleo como uma coroa e mais dois pares de pontas adornam cada lado de sua mandíbula inferior, e cada ponta separa grandes tufos da juba de Solgaleo. Saliências sólidas — vermelhas mais próximas da cabeça de Solgaleo e amarelas mais distantes — saem de cada tufo ao longo do meio, exceto nos tufos nas bochechas e no queixo, com a parte superior envolvendo a ponta do tufo.</p>
+                    </div>
+
+                </li>
+
+                <!--Lunala-->
+                <li class="cartao fundo-4">
+                    <div class="informacoes">
+                        <h2 class="nome">Lunala</h2>
+                        <p class="vida">HP 900</p>
+                    </div>
+
+                    <div class="container-imagem">
+                        <img src="src/imagens/Lunala.png" alt="Lunala">
+                    </div>
+
+                    <div class="descricao">
+                        <h3 class="titulo">Descrição</h3>
+                        <p class="texto"> Lunala é um grande Pokémon semelhante a um morcego esquelético e sem pernas. Tem um focinho curto, olhos rosa escuros com centros brancos e uma área azul profunda na parte superior da cabeça que mostra uma paisagem estelar em constante mudança.</p>
+                    </div>
+
+                </li>
+
+                <!--Raikou-->
+                <li class="cartao fundo-7">
+                    <div class="informacoes">
+                        <h2 class="nome">Raikou</h2>
+                        <p class="vida">HP 600</p>
+                    </div>
+
+                    <div class="container-imagem">
+                        <img src="src/imagens/Raikou.png" alt="Raikou">
+                    </div>
+
+                    <div class="descricao">
+                        <h3 class="titulo">Descrição</h3>
+                        <p class="texto"> Raikou é um Pokémon felino quadrúpede amarelo com listras pretas em seu corpo compartilhando uma semelhança com um tigre dente de sabre. Sua íris é de cor vermelha com uma pupila preta. Tem uma juba roxa nas costas, com pêlo branco ao redor do rosto. Tem uma cauda fina de cor azul clara com uma figura em forma de faísca na ponta. Tem uma placa de testa preta, com um focinho azul claro em forma de 'X'. Tem três garras em cada um de seus pés.</p>
+                    </div>
+
+                </li>
+
+                <!--Obstagoon-->
+                <li class="cartao fundo-9">
+                    <div class="informacoes">
+                        <h2 class="nome">Obstagoon</h2>
+                        <p class="vida">HP 500</p>
+                    </div>
+
+                    <div class="container-imagem">
+                        <img src="src/imagens/Obstagoon.png" alt="Obstagoon">
+                    </div>
+
+                    <div class="descricao">
+                        <h3 class="titulo">Descrição</h3>
+                        <p class="texto"> Obstagoon é um Pokémon mamífero humanoide que se assemelha a um texugo bípede. Sua pele é principalmente preta e branca, com tufos cinzas nos tornozelos e antebraços. Ele tem outro pedaço de pêlo cinza mais espesso nas costas e nas laterais do peito, lembrando um colete, e uma língua longa que freqüentemente pende para fora da boca.</p>
+                    </div>
+
+                </li>
+
+                <!--Palkia-->
+                <li class="cartao fundo-3">
+                    <div class="informacoes">
+                        <h2 class="nome">Palkia</h2>
+                        <p class="vida">HP 300</p>
+                    </div>
+
+                    <div class="container-imagem">
+                        <img src="src/imagens/Palkia.png" alt="Palkia">
+                    </div>
+
+                    <div class="descricao">
+                        <h3 class="titulo">Descrição</h3>
+                        <p class="texto"> Palkia foi descrito como tendo a capacidade de distorcer o espaço criando maneiras de viver e viajar em uma dimensão diferente. Quando Palkia aparece em Pokémon Pearl, ele dobra o espaço e muda a aparência das coisas ao seu redor. Este efeito é semelhante ao efeito de Giratina em Pokémon Platinum . Dizem que Palkia e Dialga nunca deveriam se encontrar. Palkia ganhou a habilidade de mudar para sua Forma de Origem através do poder do Globo Lustroso.</p>
+                    </div>
+
+                </li>
+
+                <!--Zeraora-->
+                <li class="cartao fundo-5">
+                    <div class="informacoes">
+                        <h2 class="nome">Zeraora</h2>
+                        <p class="vida">HP 500</p>
+                    </div>
+
+                    <div class="container-imagem">
+                        <img src="src/imagens/Zeraora.png" alt="Zeraora">
+                    </div>
+
+                    <div class="descricao">
+                        <h3 class="titulo">Descrição</h3>
+                        <p class="texto"> MZeraora é um Pokémon felino bípede. Tem principalmente pele amarela com desenhos de relâmpagos pretos, que cobrem sua cabeça, braços e parte de suas pernas. Ele também tem pêlo preto em seu rosto. Tem parafusos azuis para bigodes e um pico azul na cabeça. Zeraora não tem rabo, mas tem pelo longo e parecido com um rabo entre os ombros nas costas que assume a forma de um relâmpago. Suas almofadas das patas são azuis e seus pés são pretos com três garras.</p>
+                    </div>
+
+                </li>
+
+                <!--Zoroark-->
+                <li class="cartao fundo-6">
+                    <div class="informacoes">
+                        <h2 class="nome">Zoroark</h2>
+                        <p class="vida">HP 400</p>
+                    </div>
+
+                    <div class="container-imagem">
+                        <img src="src/imagens/Zoroark.png" alt="Zoroark">
+                    </div>
+
+                    <div class="descricao">
+                        <h3 class="titulo">Descrição</h3>
+                        <p class="texto"> Zoroark pode criar ilusões incrivelmente realistas. No entanto, Zoroark é incapaz de mudar fisicamente para outra forma; eles são meramente capazes de lançar ilusões. Eles podem se transformar em pessoas e outros Pokémon. Quando um Zoroark assume a forma de um humano, é capaz de falar humano. Eles usam seus poderes ilusórios para proteger seu covil e sua matilha. Eles têm a capacidade de enganar um grande grupo de pessoas simultaneamente e câmeras com seus poderes de geração de ilusão..</p>
+                    </div>
+
+                </li>
+
+                <!--Zygarde-->
+                <li class="cartao fundo-11">
+                    <div class="informacoes">
+                        <h2 class="nome">Zygarde</h2>
+                        <p class="vida">HP 200</p>
+                    </div>
+
+                    <div class="container-imagem">
+                        <img src="src/imagens/Zygarde.png" alt="Zygarde">
+                    </div>
+
+                    <div class="descricao">
+                        <h3 class="titulo">Descrição</h3>
+                        <p class="texto"> Seu corpo em sua forma 50% tem a forma da letra "Z" e parece ser uma cobra. Tem uma metade superior verde e uma parte inferior preta com 5 formas semelhantes a pilares nas costas. Não tem braços ou pernas e tem uma quantidade variada de escamas em seu corpo. Zygarde tem dois olhos compostos e formas verdes sob eles. Tem uma cauda que é plana.</p>
+                    </div>
+
+                </li>
+
+                <!--Yveltal-->
+                <li class="cartao fundo-2">
+                    <div class="informacoes">
+                        <h2 class="nome">Yveltal</h2>
+                        <p class="vida">HP 550</p>
+                    </div>
+
+                    <div class="container-imagem">
+                        <img src="src/imagens/Yveltal.png" alt="Yveltal">
+                    </div>
+
+                    <div class="descricao">
+                        <h3 class="titulo">Descrição</h3>
+                        <p class="texto"> Yveltal parece ser um Pokémon muito destrutivo e obstinado, o que é lógico, devido ao seu status de Pokémon Lendário da Destruição e ser o oposto de Xerneas. Sua natureza obstinada e altamente selvagem foi mostrada quando Dace recordou flashbacks sobre o que aconteceu com a Floresta e depois acordou com um frenesi furioso, destruindo toda a floresta apenas para procurar aqueles que a despertaram durante seu sono.</p>
+                    </div>
+
+                </li>
+
+
+                <!-- Excadrill -->
+                <li class="cartao fundo-10">
+                    <div class="informacoes">
+                        <h2 class="nome">Excadrill</h2>
+                        <p class="vida">HP 120</p>
+                    </div>
+
+                    <div class="container-imagem">
+                        <img src="src/imagens/Excadrill.png" alt="Excadrill">
+                    </div>
+
+                    <div class="descricao">
+                        <h3 class="titulo">Descrição</h3>
+                        <p class="texto"> Excadrill são Pokémon bastante territoriais, atacando intrusos que entram em seus túneis à vista. Conhecidos como "Drill Kings", eles habitam mais profundamente na terra do que Drilbur e também constroem redes de túneis mais longas e complexas. Indivíduos foram encontrados vivendo mais de 300 pés (91 metros) abaixo da superfície da Terra.</p>
+                    </div>
+
+                </li>
+
+                <!--Buzzwole-->
+                <li class="cartao fundo-4">
+                    <div class="informacoes">
+                        <h2 class="nome">Buzzwole</h2>
+                        <p class="vida">HP 1000</p>
+                    </div>
+
+                    <div class="container-imagem">
+                        <img src="src/imagens/Buzzwole.png" alt="Buzzwole">
+                    </div>
+
+                    <div class="descricao">
+                        <h3 class="titulo">Descrição</h3>
+                        <p class="texto"> Buzzwole é considerado como um Pokémon cérebro muscular que se orgulha de sua aparência muscular. Ele é capaz de absorver a energia de seus inimigos e usá-la para desencadear uma reação química, fazendo com que seus músculos cresçam a taxas explosivas.</p>
+                    </div>
+
+                </li>
+
+            </ul>
+
+            <button class="btn-seta" id="btn-avancar">
+                <img src="src/imagens/seta.png" alt="seta avançar">
+            </button>
+
+        </main>
+
+        <script src="./src/js/index.js"></script>
+        
+    </body>
+</html>
